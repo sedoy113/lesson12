@@ -13,7 +13,7 @@ $(document).ready(function() {
 				});
 
 		$('.close').on("click", function(){
-			$('.overlay').hide()
-			setTimeout(function(){$('.modal').hide();},1000)
+			$('.modal').hide()
+			setTimeout(function(){$('.overlay').hide();},1000)
 		});
 });
